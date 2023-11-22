@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Check Code Quality'){
       steps{
-        script{
-          docker.image('python:3.9').inside { c->
+        script {
+          docker.image('python:3.9').inside{ c->
             sh'''
             python -m venv .venv
             . .venv/bin/activate
