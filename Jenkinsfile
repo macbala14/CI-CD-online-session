@@ -34,4 +34,3 @@ pipeline {
       registry = 'mbala14/postgrad-test'
     }
   }
-}
